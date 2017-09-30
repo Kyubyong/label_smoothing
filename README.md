@@ -1,4 +1,4 @@
-# Label Smoothing
+# Noisy Labels and Label Smoothing
 
 When we apply the cross-entropy loss to a classification task, we're expecting true labels to have 1, while the others 0. In other words, we have no doubts that the true labels are true, and the others are not. Is that always true? Maybe not. Many manual annotations are the results of multiple participants. They might have different criteria. They might make some mistakes. They are human, after all. As a result, the ground truth labels we have had perfect beliefs on are possible wrong.
 
